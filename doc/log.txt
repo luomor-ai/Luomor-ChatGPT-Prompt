@@ -1,0 +1,103 @@
+du -alh --max-depth=1 /var/log|grep G
+4.0G    /var/log/journal
+1.4G    /var/log/nginx
+5.7G    /var/log
+
+sudo rm -rf /var/log/journal
+
+df -h
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        3.9G     0  3.9G   0% /dev
+tmpfs           3.9G   24K  3.9G   1% /dev/shm
+tmpfs           3.9G   11M  3.9G   1% /run
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/vda1       197G  186G  3.3G  99% /
+tmpfs           783M     0  783M   0% /run/user/0
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/49062cb42c21ec1ee92552e292514ef1b8cd569f3ed558a078ce59685764f80f/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/f9a0ef62a1299dfec0af6a81ed2d154c223f390f36bfc622726201e0c70c2183/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/2aca5206cdace5354abb7710ac4e5ee55fae03ab167e8fb0bc68a0ef07e24b3b/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/8ed336df841ec7f9825404173b34bbfd728c297dbe26495da6c94859bf479dc7/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/d59965599030df767385a61e0eadf7fe1f98f03f7e3e5e9da9e35782488d5296/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/571420779c4cf5fe09430d1049e96b94177aec057b4820470f19f4af1e838ba3/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/cd8b6efe93df9fd4816439711aafad58eb1e1dcf0d7c4f926779ccbaf4bcdccc/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/62dfef628854ce0b648f55839562b6f3fe809cb450d32dc5d81515df537c7b64/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/4ea5ae6ea830034df4c5c48d970a1166e673cc17477e72decefee0727d94484e/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/95f67a3024f06dbaf6551a3268e4efeff03d57d76c6e9bd976c4664dea9bd8c3/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/6358d88627e90a5ef15f9552c13f0977a1b043b6941ededff910686c3565b98b/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/99e83ed77a41eae7054b2155a442be96854fbd48dd075e1b0eab4fd10906a557/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/dafcd4c31134446ebe702ce9014fc96579726c778bbf8a12259febb8572f4b6a/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/307915a162e3f56aa6ff896b8c9d6f50e9e465e2156659bc9658e796eb339b92/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/4ff960e266307e9dd349730d936de9b081b32b471f061f0ebc6eca0c577176b9/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/merged
+overlay         197G  186G  3.3G  99% /var/lib/docker/overlay2/df5a28f1bb2d7e0aa909fe9151a0429e37ae5ae945bc90797ac46e30366d5190/merged
+tmpfs           783M     0  783M   0% /run/user/1000
+
+sudo du -alh --max-depth=1 /home
+108G    /home/zhangchunsheng
+50M     /home/web
+2.7G    /home/friday
+1.5G    /home/delist
+16K     /home/fairy
+16K     /home/7otech
+16K     /home/suomitek
+112G    /home
+
+sudo du -alh --max-depth=1 ./git/
+741M    ./git/CRMEB
+8.9G    ./git/travel
+1.2G    ./git/walrus-intelligent-manufacturing
+316K    ./git/7otech-certs
+3.6M    ./git/Auto-GPT
+122M    ./git/RSSHub
+74M     ./git/openai
+910M    ./git/qp
+347M    ./git/jjjfood
+32M     ./git/PromptGenius
+16M     ./git/LuomorPromptStudio
+8.0K    ./git/docker
+189M    ./git/harbor.zip
+32K     ./git/dubheDeployScriptfile.zip
+105M    ./git/vhr
+830M    ./git/docker-jira
+176M    ./git/thingsboard
+1.2G    ./git/beijing-tower-delist
+777M    ./git/beijing-tower-athena
+203M    ./git/car-sharing-api
+629M    ./git/mediapipe
+596K    ./git/EasyQuestionnaire-backend
+7.9M    ./git/Luomor-Next-Web
+68M     ./git/jetlinks-community
+155M    ./git/rhinoceros-questionnaire-api
+393M    ./git/docker-wordpress
+2.4M    ./git/ChatGPT-Shortcut
+1.6G    ./git/beijing-tower-friday
+583M    ./git/ejyy
+3.3G    ./git/mogu_blog_v2
+192K    ./git/dubheDeployScriptfile
+106M    ./git/TipDM
+237M    ./git/thinkcmf-docker
+212M    ./git/food_wm2
+232K    ./git/nginx-conf
+7.1M    ./git/acme.sh
+12K     ./git/harbor-online-installer-v2.0.2.tgz
+8.0K    ./git/ChuanhuChatGPT
+1.3G    ./git/cma-assistant-fairy
+16G     ./git/aigc
+344M    ./git/luomor-food
+247M    ./git/harbor
+3.1M    ./git/JIRA
+180K    ./git/harbor-build
+7.0M    ./git/matrix-docker-ansible-deploy
+9.1M    ./git/chatgpt-web
+200M    ./git/zfile
+88M     ./git/LuomorChatGPT
+26M     ./git/containerd.io-1.2.6-3.3.el7.x86_64.rpm
+133M    ./git/vue-questionnaire-api
+224K    ./git/suomitek-certs
+164K    ./git/polyaxon
+30M     ./git/zpan
+436M    ./git/matrix-appservice-wechaty
+251M    ./git/jeewms
+837M    ./git/beijing-tower-friday.tar.gz
+260K    ./git/7otech-nginx-conf
+42G     ./git/

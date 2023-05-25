@@ -24,7 +24,7 @@
 查看[博客文章](https://note.luomor.com/posts/2023-02-27-chatgpt_shortcuts.html)了解 ChatGPT Shortcut 的开发思路与初衷。
 
 <a href="https://discord.gg/PZTQfJ4GjX">
-   <img src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge" alt="chat on Discord">
+   <img src="https://img.shields.io/discord/1089840955793887282?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge" alt="chat on Discord">
 </a>
 
 ## 使用说明
