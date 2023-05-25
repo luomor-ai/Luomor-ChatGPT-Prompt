@@ -5,6 +5,8 @@ sudo docker run --rm -p 8080:80 --name luomor-chatgpt-prompt yiluxiangbei/luomor
 
 sudo docker run -d -p 8080:80 --name luomor-chatgpt-prompt yiluxiangbei/luomor-chatgpt-prompt:v1
 
+sudo docker push yiluxiangbei/luomor-chatgpt-prompt:v1
+
 sudo docker ps|grep luomor-chatgpt-prompt
 
 docker rmi `docker images|grep none |  awk '{print $3}'`
