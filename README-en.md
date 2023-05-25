@@ -60,7 +60,7 @@ Although ChatGPT is very powerful, it is not omnipotent. Sometimes it may output
 
 ### Function of prompt
 
-All prompts are from the Internet and will be updated regularly. Although I have tested every prompt, the actual effect may deviate due to different needs.If you find any errors or have creative ideas or good prompts, welcome [feedback and submission](https://github.com/rockbenben/ChatGPT-Shortcut/discussions/11).
+All prompts are from the Internet and will be updated regularly. Although I have tested every prompt, the actual effect may deviate due to different needs.If you find any errors or have creative ideas or good prompts, welcome [feedback and submission](https://github.com/luomor-ai/Luomor-ChatGPT-Prompt/discussions/2).
 
 In addition, prompts can not only be used for work production, but more importantly help you develop your thinking skills,broaden your mind,and consider problems from multiple perspectives,and solve problems that people tend to overlook while thinking.
 

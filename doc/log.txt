@@ -226,3 +226,36 @@ sudo du -alh --max-depth=1 /var/lib/
 20K     /var/lib/nfs
 4.0M    /var/lib/nginx
 90G     /var/lib/
+
+sudo du -alh --max-depth=1 /var/lib/docker/
+997M    /var/lib/docker/volumes
+88K     /var/lib/docker/buildkit
+4.0K    /var/lib/docker/swarm
+16K     /var/lib/docker/plugins
+81G     /var/lib/docker/overlay2
+487M    /var/lib/docker/containers
+4.0K    /var/lib/docker/runtimes
+152K    /var/lib/docker/network
+76M     /var/lib/docker/image
+4.0K    /var/lib/docker/tmp
+4.0K    /var/lib/docker/trust
+83G     /var/lib/docker/
+
+sudo du -alh --max-depth=1 /var/lib/docker/overlay2|grep G
+2.7G    /var/lib/docker/overlay2/49062cb42c21ec1ee92552e292514ef1b8cd569f3ed558a078ce59685764f80f
+1.4G    /var/lib/docker/overlay2/7202dea1e6e56785b25fca198649a09ec6e1dd849a2923a5efce4803da70f936
+3.5G    /var/lib/docker/overlay2/2248dd912c9e79b23cbd47478494025e83ba34992b19b897401308c00edf22be
+1.1G    /var/lib/docker/overlay2/581e1043aa871fe814b24aaf23c3ab0e8ea6c8e3fd78cf8fab40237743741a7d
+37G     /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d
+5.0G    /var/lib/docker/overlay2/cdea8bf3c263ef7739387de1fa8859351c8ea73e8e7f3332becf1c9819b26f64
+81G     /var/lib/docker/overlay2
+
+sudo du -alh --max-depth=1 /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/|grep G
+2.5G    /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/core.19
+2.6G    /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/core.58
+2.6G    /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/core.91
+2.6G    /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/core.69
+2.6G    /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/core.80
+2.6G    /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/core.47
+2.6G    /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/core.36
+18G     /var/lib/docker/overlay2/0812724f2c0e9984ce5a3c9a84c537d3070d1534f80ab50940c35d7bd5bdf67d/diff/home/ejyy/
