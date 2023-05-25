@@ -1,14 +1,14 @@
 const zhNavbar = {
   hideOnScroll: true,
-  title: "ChatGPT SC",
+  title: "ChatGPT P",
   logo: {
     alt: "ChatGPT Shortcuts",
     src: "img/logo.svg",
   },
   items: [
     {
-      to: "https://note.luomor.com/posts/2023-02-27-chatgpt_shortcuts.html",
-      label: "ChatGPT Shortcut 原理说明",
+      to: "https://chatgpt.luomor.com/",
+      label: "体验完成ChatGPT",
       position: "left",
     },
     {
@@ -23,7 +23,7 @@ const zhNavbar = {
       ],
     },
     {
-      to: "https://xq7pd3qu17.feishu.cn/share/base/form/shrcnK7oaSPaAcj1YAHfy4jo0Jh",
+      to: "https://pokepangle.feishu.cn/share/base/form/shrcn7JoQTi4LzcfKOM9QLeb0he",
       label: "反馈/添加提示词",
       position: "left",
     },
