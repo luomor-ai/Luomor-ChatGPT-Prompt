@@ -5,6 +5,9 @@ sudo docker run --rm -p 8080:80 --name luomor-chatgpt-prompt yiluxiangbei/luomor
 
 sudo docker run -d -p 8080:80 --name luomor-chatgpt-prompt yiluxiangbei/luomor-chatgpt-prompt:v1
 
+sudo docker stop luomor-chatgpt-prompt
+sudo docker start luomor-chatgpt-prompt
+
 sudo docker push yiluxiangbei/luomor-chatgpt-prompt:v1
 
 sudo docker ps|grep luomor-chatgpt-prompt
