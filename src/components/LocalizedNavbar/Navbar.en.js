@@ -14,7 +14,7 @@ const enNavbar = {
     },
     { type: "localeDropdown", position: "right" },
     {
-      href: "https://github.com/luomor-ai/ChatGPT-Shortcut",
+      href: "https://github.com/luomor-ai/Luomor-ChatGPT-Prompt",
       position: "right",
       className: "header-github-link",
     },
