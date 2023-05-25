@@ -2,7 +2,7 @@ const zhNavbar = {
   hideOnScroll: true,
   title: "ChatGPT P",
   logo: {
-    alt: "ChatGPT Shortcuts",
+    alt: "Luomor ChatGPT Prompt",
     src: "img/logo.svg",
   },
   items: [

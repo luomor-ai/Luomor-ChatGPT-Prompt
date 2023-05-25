@@ -1,19 +1,19 @@
 {
   "title": {
-    "message": "ChatGPT SC",
+    "message": "ChatGPT P",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "ChatGPT Shortcuts",
+    "message": "Luomor ChatGPT Prompt",
     "description": "The alt text of navbar logo"
   },
   "item.label.Find on Product Hunt": {
     "message": "Find on Product Hunt",
     "description": "Navbar item with label Find on Product Hunt"
   },
-  "item.label.ChatGPT Shortcut 原理说明": {
-    "message": "ChatGPT Shortcut 原理说明",
-    "description": "Navbar item with label ChatGPT Shortcut 原理说明"
+  "item.label.Luomor ChatGPT Prompt 原理说明": {
+    "message": "Luomor ChatGPT Prompt 原理说明",
+    "description": "Navbar item with label Luomor ChatGPT Prompt 原理说明"
   },
   "item.label.其他工具": {
     "message": "其他工具",
