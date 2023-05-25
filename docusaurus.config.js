@@ -13,7 +13,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://prompt-genius.luomor.com/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -48,7 +48,7 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: "G-YJY639H2J1",
+          trackingID: "G-87JET1FJ65",
           anonymizeIP: false,
         },
       }),
